@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>Welcome to Me</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="portfolio.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant|Rosario" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+           <h1 class="name">Alex Magaña</h1> 
+           <div class="container1"> 
+                <nav>
+                    <ul>
+                        <li id="home1"><a href="#">Home</a></li>
+                        <li id="about1"><a href="#">About</a></li>               
+                        <li id="portfolio1"><a href="#">Portfolio</a></li>
+                        <li id="contact1"><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div>
+            <img src="IMG_2157.jpg">
+        </div>
+        <div>
+            <h1 id="about" class="about">About</h1>
+            <div id="info">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+        <div>
+            <h1 class="portfolio">Portfolio</h1>
+            <div class="container2">
+                <div class="box1">
+                    <a href="https://oarsyonov.github.io/Investimate/app.html"><img src="Screen Shot 2019-03-31 at 1.53.51 AM.png" class="picture" id="img1"></a>
+                    <p class="description">An investment app that provides predictive future stock investment. <a href="https://github.com/oarsyonov/Investimate">Link to Code</a></p>
+                </div>
+                <div class="box1">
+                    <a href="https://amaga010.github.io/crystalCollector/"><img src="Screen Shot 2019-03-31 at 2.04.59 AM.png" class="picture" id="img2"></a>
+                    <p class="description">A fun and simple crystal collection game ! <br> <a href="https://github.com/amaga010/crystalCollector">Link to Code</a></p>
+                </div>
+                <div class="box1">
+                    <a href="https://amaga010.github.io/GIPHY_HW/"><img src="Screen Shot 2019-03-31 at 2.06.43 AM.png" class="picture" id="img3"></a>
+                    <p class="description">An interactive gif genrating website.  <br> <a href="https://github.com/amaga010/GIPHY_HW ">Link to Code</a></p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h1 class="contact">Contact</h1>
+            <h2 class="contact2">To download my resumé click <a href="resume2018.pdf" download>here</a>. If you have any questions or comments feel free to email me.</h2>
+        </div>
+        <div id="main-container" class="form"> 
+            <section class="main-section">
+                <form id="contact-form">
+                        <ul>
+                            <li>
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name" placeholder="John Smith" required="required">
+                            </li>
+                            <li>
+                                <label for="email">Email</label>
+                                <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+                            </li>
+                            <li>
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" required="required"></textarea>
+                            </li>
+                        </ul>
+                        <input type="submit" name="submit" id="submit">
+                    </form>
+            </section>
+        </div>
+        <footer>
+                <div class="foot">
+                    &copy; Copyright 2019 Alex Magaña
+                </div>
+        </footer>    
+    </body>
+</html>
+
+<!--
+    https://github.com/oarsyonov/Investimate || https://oarsyonov.github.io/Investimate/app.html
+    https://github.com/amaga010/crystalCollector || https://amaga010.github.io/crystalCollector/
+    https://github.com/amaga010/GIPHY_HW || https://amaga010.github.io/GIPHY_HW/
+-->
