@@ -3,6 +3,7 @@
         <title>Welcome to Me</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="portfolio.js"></script>
         <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
@@ -11,15 +12,17 @@
     <body>
         <header>
            <h1 class="name">Alex Magaña</h1> 
-           <div class="container1"> 
-                <nav>
-                    <ul>
-                        <li id="home1"><a href="#">Home</a></li>
-                        <li id="about1"><a href="#">About</a></li>               
-                        <li id="portfolio1"><a href="#">Portfolio</a></li>
-                        <li id="contact1"><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
+           <div class="row"> 
+                <div class="col-9 container1">
+                    <nav>
+                        <ul>
+                            <li id="home1"><a href="#">Home</a></li>
+                            <li id="about1"><a href="#">About</a></li>               
+                            <li id="portfolio1"><a href="#">Portfolio</a></li>
+                            <li id="contact1"><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </header>
         <div>
@@ -34,22 +37,32 @@
         </div>
         <div>
             <h1 class="portfolio">Portfolio</h1>
-            <div class="container2">
-                <div class="box1">
+            <div class="row">
+                <div class="col-4 col-s-12 box1">
                     <a href="https://oarsyonov.github.io/Investimate/app.html"><img src="Screen Shot 2019-03-31 at 1.53.51 AM.png" class="picture" id="img1"></a>
-                    <p class="description">An investment app that provides predictive future stock investment. <a href="https://github.com/oarsyonov/Investimate">Link to Code</a></p>
+                    <p class="description">An investment app that provides predictive future stock investment. <br> <a href="https://github.com/oarsyonov/Investimate">Link to Code</a></p>
                 </div>
-                <div class="box1">
+                <div class="col-4 col-s-12 box1">
                     <a href="https://amaga010.github.io/crystalCollector/"><img src="Screen Shot 2019-03-31 at 2.04.59 AM.png" class="picture" id="img2"></a>
                     <p class="description">A fun and simple crystal collection game ! <br> <a href="https://github.com/amaga010/crystalCollector">Link to Code</a></p>
                 </div>
-                <div class="box1">
+                <div class="col-4 col-s-12 box1">
                     <a href="https://amaga010.github.io/GIPHY_HW/"><img src="Screen Shot 2019-03-31 at 2.06.43 AM.png" class="picture" id="img3"></a>
                     <p class="description">An interactive gif genrating website.  <br> <a href="https://github.com/amaga010/GIPHY_HW ">Link to Code</a></p>
                 </div>
-                <div class="box1">
+            </div>
+            <div class="row">
+                <div class="col-4 col-s-12 box1">
                     <img src="Screen Shot 2019-04-06 at 11.39.57 PM.png" class="picture" id="img4">
                     <p class="description">A command line node app that takes in parameters and gives you back data <br> <a href="https://github.com/amaga010/liri-node-app">Link to Code</a></p>
+                </div>
+                <div class="col-4 col-s-12 box1">
+                    <a href="https://oarsyonov.github.io/Investimate/app.html"><img src="Screen Shot 2019-03-31 at 1.53.51 AM.png" class="picture" id="img5"></a>
+                    <p class="description">An app that reurns tv show and movie suggestions based on survey responses. <br> <a href="https://github.com/amaga010/media_junkie">Link to Code</a></p>
+                </div>
+                <div class="col-4 col-s-12 box1">
+                    <a href="https://friend-finder-amaga010.herokuapp.com/"><img src="Screen Shot 2019-05-28 at 3.35.21 PM.png" class="picture" id="img6"></a>
+                    <p class="description">An app that allows you to take a quick survey and find a new friend in just a matter of minutes. <br> <a href="https://github.com/amaga010/friendFinder">Link to Code</a></p>
                 </div>
             </div>
         </div>
@@ -85,9 +98,3 @@
         </footer>    
     </body>
 </html>
-
-<!--
-    https://github.com/oarsyonov/Investimate || https://oarsyonov.github.io/Investimate/app.html
-    https://github.com/amaga010/crystalCollector || https://amaga010.github.io/crystalCollector/
-    https://github.com/amaga010/GIPHY_HW || https://amaga010.github.io/GIPHY_HW/
--->
